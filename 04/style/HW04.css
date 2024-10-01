@@ -1,0 +1,46 @@
+body{
+background-color: rgb(248, 252, 253);
+}
+   
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding top:  42px;
+    padding-left: 141px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    color: black;
+    height: 48px;
+    font-family: 'Inter';
+    
+}
+.center-content{
+    text-align: center;
+    padding-top: 52px;
+    
+    size: 300px;
+}
+.left-title{
+    padding-left: 24px;
+    text-align: left;
+    height: 32px;
+
+}
+.center-title{
+   text-align: center; 
+}
+.right-title{
+    text-align: right;
+
+}
+.text-right{
+    text-align: right;
+    font-family: 
+     font-size: 16px;
+}
+.right-content{
+    text-align: right;
+        padding-top: 52px;
+    padding-bottom: 52px
+        size: 300px;
+}
