@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    padding-top: 65px;
+    padding-bottom: 59px;
+}
+.header-conteiner{
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 0;
+
+}
+.logo-block,
+.social-block{
+    width: 470px;
+    display: inline-block;
+}
+.social-block{
+    text-align: right;
+    display: inline-block;
+    margin-left: 21px;
+}
+.form-section{
+    padding-top: 102px;
+    padding-bottom: 112px;
+    background: yellow;
+
+}
+.text-conteiner{
+    max-width: 810px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-section h1{
+    color: rgb(138, 109, 47);
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 54px;
+
+}
+.form-section input{
+    display: inline-block;
+
+}
+.input-email{
+    padding: 0 36px;
+    width: 560px;
+    height: 54px;
+    border-radius: 2px 0px 0px 2px;
+    background: rgb(255, 255, 255);
+
+}
+.title-element{
+    color: rgba(0, 0, 0, 56);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.mobile{
+    padding-top: 80px;
+    padding-bottom: 21px;
+
+}
+.share{
+    padding-top: 54px;
+    padding-bottom: 57px;
+    background: rgb(250, 201, 96); 
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+.footer{
+    padding: 81px 0;
+    background: rgb(242, 242, 242);
+    
+}
