@@ -28,7 +28,7 @@ h1 {
 }
 
 h1::before {
-    content: '';
+   
     display: inline-block;
     margin-right: 26px;
     width: 28px;
