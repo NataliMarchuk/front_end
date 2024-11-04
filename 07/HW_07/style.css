@@ -14,9 +14,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    font-family: var(--FontFamily);
 }
 
+@font-face {
+    font-family: 'KyivTypeTitling';
+    src: url('./fonts/KyivTypeTitling-VarGX.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
 
 h1 {
     font-family: 'KyivTypeTitling', sans-serif;
@@ -28,7 +34,7 @@ h1 {
 }
 
 h1::before {
-   
+    content: '';
     display: inline-block;
     margin-right: 26px;
     width: 28px;
@@ -37,7 +43,7 @@ h1::before {
     border: 3px solid var(--colorBackground);
 }
 
-.box-text {
+.container-text {
     width: 55%;
     text-align: left;
     color: var(--colorBackground);
@@ -62,7 +68,7 @@ header {
     padding-right: 56px;
 }
 
-.data-box {
+.release-data {
     padding-top: 40px;
 }
 
@@ -83,7 +89,7 @@ main {
     margin: 0 auto;
 }
 
-
+h2,
 h3 {
     margin: 0;
     padding-bottom: 27px;
@@ -107,7 +113,7 @@ h3::before {
     vertical-align: middle;
 }
 
-.text-other {
+.difference {
     height: 44px;
 }
 
@@ -119,7 +125,7 @@ h4 {
     padding-bottom: 17px;
 }
 
-.other-box {
+.second-difference {
     height: 47px;
 }
 
@@ -163,13 +169,13 @@ p {
 
 .rating .fa-solid {
     color: rgb(255, 234, 43);
-    /* Жовтий колір для заповнених зірок */
+   
     margin-right: 16.56px;
 }
 
 .rating .fa-regular {
     color: var(--colorBackground);
-    /* Білий колір для порожніх зірок */
+    
     margin-right: 16.56px;
 }
 
@@ -222,14 +228,14 @@ button .play {
     padding-right: 90px;
 }
 
-.episodes-box {
+.episodes {
     display: inline-block;
     width: 271px;
     height: 64px;
     border-radius: 10px;
 }
 
-.scroll-box {
+.container-scroll {
     max-width: 949px;
     text-align: left;
     color: var(--colorBackground);
@@ -241,7 +247,7 @@ button .play {
     padding-bottom: 32px;
 }
 
-.icon-conteiner {
+.text-icon {
     display: inline-block;
     font-size: 22px;
     font-weight: 800;
@@ -257,16 +263,19 @@ button .play {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid var(--colorBackground);
+    border: 1.54px solid var(--colorBackground);
     background-color: transparent;
     color: var(--colorBackground);
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 16px;
 }
 
-
+.arrow-btn:hover {
+    background-color: var(--colorBackground);
+}
 
 .left i {
     transform: translateX(-1px);
@@ -276,16 +285,16 @@ button .play {
     transform: translateX(1px);
 }
 
-.images-box {
+.images {
     display: flex;
 }
 
-.images {
+.images-item {
     margin-right: 50px;
 
 }
 
-.age {
+.age-category {
     padding: 16px 32px;
     background-color: rgba(255, 255, 255, 0.49);
     color: white;
