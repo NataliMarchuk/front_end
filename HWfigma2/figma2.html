@@ -12,65 +12,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header>
-            <form class="content">
-                <button type="submit"> <img src="img/img menu.png"" alt="menu">
-            </form></button>
+        <div class="container">
+            <header>
+                <div class="menu-icon">&#9776;</div>
+                <h1>Menu</h1>
+            </header>
         
+            <div class="search-bar">
+                <input type="text" placeholder="Search food here" />
+            </div>
         
-            <h1>Menu</h1>
-        
-            <form>
-        
-                <input type="text" placeholder="Search food here"><button type="submit"></button>
-            </form>
-        
-        
-            
-                <div class="text-container">
-                    <div class="foods"> 
-                        <img src="img/food.png" alt="food">
+            <div class="category-icons">
+                <div class="category selected">
+                    <div class="icon-bg">
+                        <img src="img/food.png" alt="Food Icon">
+                        </div>
+                    <p>Food</p>
+                </div>
+                <div class="category">
+                    <img src="img/drink.png" alt="Drinks Icon">
+                    <p>Drinks</p>
+                </div>
+                <div class="category">
+                    <div>
+                        <img src="img/desserts.png" alt="Dessert Icon">
                     </div>
-                    <p class="blocks">Food</p>
+                    <p>Dessert</p>
                 </div>
-                <div class="text-container">
-                    <div class="drinks">
-                        <img src="img/drink.png" alt="drink">
-                    </div>
-                    <p class="blocks">Drinks</p>
-                </div>
-                <div class="text-container">
-                    <div class="dessert">
-                        <img src="img/drink.png" alt="dessert">
-                    </div>
-                    <p class="blocks">Dessert</p>
-                </div>
-            </div>
-            <h2>Burger</h2>
-        
-            <div class="burg">
-                <div class="img">
-                    <img src="img/big mac.png" alt="mac">
-                </div>
-                <div class="text-content">Big Mac <br><span>Rs 240</span></div>
-            </div>
-            <div class="burg">
-                <div class="img">
-                    <img src="img/kfc.png" alt="kfc">
-                </div>
-                <div class="text-content">KFC Double <br><span>Rs 252</span></div>
-            </div>
-            <div class="burg">
-                <div class="img">
-                    <img src="img/fish.png" alt="fish">
-                </div>
-                <div class="text-content">Fish Burger <br><span>Rs 220</span></div>
             </div>
         
-        </header>
+            <section class="burger-menu">
+                <h2>Burger</h2>
+                <div class="menu-item">
+                    <img src="imgs/Big Mac.png" alt="Big Mac">
+                    <div class="menu-info">
+                        <p>Big Mac</p>
+                        <span class="price">Rs 240</span>
+                    </div>
+                </div>
+        
+                <div class="menu-item">
+                    <img src="img/kfc.png" alt="KFC Double">
+                    <div class="menu-info">
+                        <p>KFC Double</p>
+                        <span class="price">Rs 252</span>
+                    </div>
+                </div>
+        
+                <div class="menu-item">
+                    <img src="img/fish.png" alt="Fish Burger">
+                    <div class="menu-info">
+                        <p>Fish Burger</p>
+                        <span class="price">Rs 220</span>
+                    </div>
+                </div>
+            </section>
+        </div>
         </body>
         
         </html>
-
-</body>
-</html>
